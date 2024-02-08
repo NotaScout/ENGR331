@@ -1,0 +1,42 @@
+taken pins
+
+
+Ultar senseor
+GPIOD 12
+GPIOA 1 
+
+ADC
+GPIOA 2  
+GPIOD 12
+
+Hbridge
+GPIOD
+13,14
+
+timer for ultra sensor
+GPIOA
+1,6
+
+LCD
+GIOD
+0,1,2,3,5,6,7
+
+RESET
+GPIOD
+4
+
+PUSH BUT
+GPIOA 
+0
+
+RPG
+GPIOD
+8,9,10
+
+TAKEN
+GIOD:0,1,2,3,4,5,6,7,8,9,10,12,13,15
+
+GIOA:0,1,2,6
+
+FREE
+GPIOD:11

@@ -1,0 +1,16 @@
+just tells you what lab is being worked on
+
+
+================notes===========================
+I find this knowledge to be very useful in the future, but I will most likely forget it
+
+Run the Keil uVision in debug mode until you have collected the 500 data points.
+Press on STOP of the debugger.
+In Debugger mode, from top menu, click on Debug.
+Select Function Editor
+Browse to logvals.ini file. Press Save. Press Compile in the Function Editor window.
+
+Once the file is loaded. Call the function inside the file to save the values to a log file we declared (in our case the function was called 
+saveVals() and log file for value saved is ENGR331demo.log)
+
+The saved ENGR331demo.log file should be in the same main folder where you save the logvals.ini file earlier.

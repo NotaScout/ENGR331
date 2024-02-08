@@ -1,0 +1,16 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\lcd.o"
+".\objects\lab3_main.o"
+".\objects\rpg.o"
+".\objects\led.o"
+".\objects\timer.o"
+".\objects\motor.o"
+".\objects\ultra_sensor.o"
+".\objects\adc.o"
+".\objects\accelerometer.o"
+".\objects\startup_stm32f407xx.o"
+".\objects\system_stm32f4xx.o"
+--strict --scatter ".\Objects\Lab3.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Lab3.map" -o .\Objects\Lab3.axf
